@@ -1,0 +1,4 @@
+include ':app', ':neoVidaContract', ':macore'
+
+project(':neoVidaContract').projectDir = new File("./contract/neoVidaContract")
+project(':macore').projectDir = new File("./contract/macore")
